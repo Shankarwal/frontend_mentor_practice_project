@@ -45,12 +45,12 @@ const Wrapper = styled.div`
   }
   .about {
     h2 {
-      font-size: 2rem;
+      font-size: 2.2rem;
       letter-spacing: 0.15rem;
       margin-bottom: 1.6rem;
     }
     p {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       letter-spacing: 0.1rem;
       font-weight: 400;
       opacity: 0.7;
