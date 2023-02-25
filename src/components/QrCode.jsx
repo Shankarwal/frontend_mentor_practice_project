@@ -8,7 +8,9 @@ const QrCode = () => {
           <img src="/images/qr-code.png" />
         </div>
         <div className="about">
-          <h2>improve your front-end skills by building projects</h2>
+          <h2>
+            improve your front-end development skills by building projects
+          </h2>
           <p>
             Scan the QR code to visit Frontend Mentor and take your front-end
             skills to next level
@@ -67,7 +69,7 @@ const Wrapper = styled.div`
         margin-bottom: 1.6rem;
       }
       p {
-        font-size: 2rem;
+        font-size: 1.6rem;
         letter-spacing: 0.1rem;
         font-weight: 400;
         opacity: 0.7;
