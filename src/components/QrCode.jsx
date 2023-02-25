@@ -48,19 +48,22 @@ const Wrapper = styled.div`
       color: var(--Dark-blue);
     }
     p {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       margin-bottom: 1rem;
+      letter-spacing: 0.6px;
       color: var(--Grayish-blue);
+      margin-bottom: 1.2rem;
     }
   }
   @media (max-width: 324px) {
     .about {
       h2 {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         margin-bottom: 1.6rem;
       }
       p {
         font-size: 1.3rem;
+        letter-spacing: 0.4px;
       }
     }
   }
