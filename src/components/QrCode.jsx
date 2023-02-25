@@ -28,9 +28,9 @@ const Wrapper = styled.div`
   .code-box {
     text-align: center;
     width: 85vw;
-    max-width: 30rem;
+    max-width: 32rem;
     height: auto;
-    padding: 2.4rem;
+    padding: 1.6rem;
     background: var(--White);
     border-radius: 25px;
     display: flex;
@@ -43,12 +43,12 @@ const Wrapper = styled.div`
   }
   .about {
     h2 {
-      font-size: 2rem;
+      font-size: 2.2rem;
       margin-bottom: 1.4rem;
       color: var(--Dark-blue);
     }
     p {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       margin-bottom: 1rem;
       color: var(--Grayish-blue);
     }
