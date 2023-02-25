@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --bg-white: #fff;
+  --bg-blue: #4dabf7;
+  --radius-half: 50%;
+  --radius-ten: 1rem;
+  --radius-five: 0.5rem;
+  --shadow-light: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Outfit', sans-serif;
+  color: #333;
+  /* min-width: 100% !important; */
+  min-height: 100vh;
+  /* overflow: hidden; */
+  background: #e7f5ff;
+  font-weight: 400;
+  position: relative;
+}
+
+main {
+  min-height: 100vh;
+  /* min-height: 100%; */
+  display: grid;
+  place-items: center;
+}
+
+/* a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+} */
