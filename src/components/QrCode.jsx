@@ -50,7 +50,7 @@ const Wrapper = styled.div`
       margin-bottom: 1.6rem;
     }
     p {
-      font-size: 1rem;
+      font-size: 1.6rem;
       letter-spacing: 0.1rem;
       font-weight: 400;
       opacity: 0.7;
@@ -67,7 +67,7 @@ const Wrapper = styled.div`
         margin-bottom: 1.6rem;
       }
       p {
-        font-size: 1.6rem;
+        font-size: 2rem;
         letter-spacing: 0.1rem;
         font-weight: 400;
         opacity: 0.7;
