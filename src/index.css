@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
   font-family: "Hanken Grotesk";
   src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf")
     format("woff2-variations");
   font-weight: 400 500 600 700;
   font-stretch: 75% 125%;
-}
+} */
 
 * {
   margin: 0;
@@ -32,7 +32,8 @@ html {
 body {
   /* font-family: "Montserrat", sans-serif; */
   /* font-family: "Outfit", sans-serif; */
-  font-family: "Hanken Grotesk";
+  /* font-family: "Hanken Grotesk"; */
+  font-family: "Overpass", sans-serif;
   /* min-width: 100% !important; */
   /* min-height: 100vh; */
   /* overflow: hidden; */
@@ -40,6 +41,8 @@ body {
   background: #e7f5ff;
   /* font-weight: 400; */
   position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 main {

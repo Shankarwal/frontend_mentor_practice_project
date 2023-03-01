@@ -1,0 +1,22 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: hsl(216, 12%, 8%);
+}
+
+/* .container {
+  margin: 0 auto;
+
+} */
+
+.card {
+  width: 90vw;
+  max-width: 28rem;
+  height: 27.4rem;
+  background-image: linear-gradient(rgb(37, 45, 55), rgb(21, 25, 30));
+  border-radius: 3rem;
+  padding: 2.2rem;
+  transition: all 5s ease-in-out;
+}

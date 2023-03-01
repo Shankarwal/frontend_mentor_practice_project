@@ -6,22 +6,26 @@ import ProgressCircle from "./components/ProgressCircle";
 import Accordion from "./components/Accordion";
 import QrCode from "./components/QrCode";
 import PerformanceCard from "./components/PerformanceCard";
+import Rating from "./components/rating/Rating";
 
 function App() {
   return (
-    <main>
-      <PerformanceCard />
-      <div>
-        Challenge by &nbsp;
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor &nbsp;
-        </a>
-        Coded by &nbsp;
-        <a href="https://github.com/Shankarwal" target="_blank">
-          Sandeep Kumar
-        </a>
-      </div>
-    </main>
+    <>
+      <Rating />
+      {/* <main> */}
+      {/* <PerformanceCard /> */}
+      {/* <div> */}
+      {/* Challenge by &nbsp; */}
+      {/* <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> */}
+      {/* Frontend Mentor &nbsp; */}
+      {/* </a> */}
+      {/* Coded by &nbsp; */}
+      {/* <a href="https://github.com/Shankarwal" target="_blank"> */}
+      {/* Sandeep Kumar */}
+      {/* </a> */}
+      {/* </div> */}
+      {/* </main> */}
+    </>
   );
 }
 

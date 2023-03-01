@@ -1,0 +1,39 @@
+.thanks {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thanks_img {
+  width: 12.5rem;
+}
+
+.img_container p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1.8rem;
+  padding: 0.6rem 1.2rem;
+  color: hsl(25, 58%, 46%);
+  background-color: hsl(216, 12%, 25%);
+  border-radius: 3rem;
+}
+
+.text_box {
+  text-align: center;
+}
+
+.text_box h1 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 0.6rem;
+}
+
+.text_box p {
+  line-height: 1.5;
+  font-size: 1rem;
+  color: hsl(217, 12%, 63%);
+  letter-spacing: 0.4px;
+}
