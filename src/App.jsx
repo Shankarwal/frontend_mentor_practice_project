@@ -12,7 +12,7 @@ function App() {
     <main>
       <PerformanceCard />
       <div>
-        Challenge by &nbsp;
+        <h1>Challenge by</h1> &nbsp;
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor &nbsp;
         </a>
