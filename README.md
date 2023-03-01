@@ -21,12 +21,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](/public/Screenshot.png) //Desktop
-![](/public/Screenshot_mobile.png) //Desktop
+//Desktop
+![](/public/Screenshot.png)
+![](/public/Card_desk_Screenshot.png)
+
+//Mobile
+![](/public/Screenshot_mobile.png)
+![](/public/Card_mob_Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: https://github.com/Shankarwal
 - Live Site URL: https://frontend-component-ind.netlify.app/
 
 ## My process
