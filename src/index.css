@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format("woff2-variations");
+  font-weight: 400 500 600 700;
+  font-stretch: 75% 125%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,21 +31,33 @@ html {
 
 body {
   /* font-family: "Montserrat", sans-serif; */
-  font-family: 'Outfit', sans-serif;
-  color: #333;
+  /* font-family: "Outfit", sans-serif; */
+  font-family: "Hanken Grotesk";
   /* min-width: 100% !important; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* overflow: hidden; */
+  color: hsl(0, 0%, 20%);
   background: #e7f5ff;
-  font-weight: 400;
+  /* font-weight: 400; */
   position: relative;
 }
 
 main {
+  /* min-height: 100vh; */
   min-height: 100vh;
-  /* min-height: 100%; */
   display: grid;
   place-items: center;
+}
+
+@media (max-width: 375px) {
+  body {
+    height: 100vh;
+    background: #fff;
+  }
+  main {
+    /* display: block; */
+    height: 100;
+  }
 }
 
 /* a {
