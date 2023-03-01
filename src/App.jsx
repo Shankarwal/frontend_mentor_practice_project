@@ -11,7 +11,7 @@ function App() {
   return (
     <main>
       <PerformanceCard />
-      {/* <div>
+      <div>
         Challenge by &nbsp;
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor &nbsp;
@@ -20,7 +20,7 @@ function App() {
         <a href="https://github.com/Shankarwal" target="_blank">
           Sandeep Kumar
         </a>
-      </div> */}
+      </div>
     </main>
   );
 }
