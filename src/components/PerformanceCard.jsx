@@ -34,7 +34,7 @@ const PerformanceCard = () => {
         </div>
       </div>
       <div className="performance">
-        <h2>Summary</h2>
+        <h1>Summary</h1>
         <ul className="list">
           {stats
             ? stats?.map(({ category, score, icon }) => {
@@ -137,7 +137,7 @@ const Wrapper = styled.article`
     justify-content: space-between;
     gap: 2rem;
     margin-right: 3.2rem;
-    h2 {
+    h1 {
       font-size: 1.6rem;
     }
     button {
