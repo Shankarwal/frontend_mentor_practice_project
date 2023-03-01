@@ -231,7 +231,7 @@ const Wrapper = styled.article`
       }
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 324px) {
     grid-template-columns: 1fr;
     width: 100%;
     height: 100vh;
