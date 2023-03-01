@@ -41,7 +41,7 @@ const PerformanceCard = () => {
                 return (
                   <li key={category} className="list-item">
                     <p className="cat">
-                      <img src={icon} alt={category} />
+                      <img src={icon} alt={`${category}-${score}`} />
                       <span>{category}</span>
                     </p>
                     <span className="out-of">
