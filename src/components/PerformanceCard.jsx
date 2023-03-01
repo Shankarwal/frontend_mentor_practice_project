@@ -40,10 +40,10 @@ const PerformanceCard = () => {
             ? stats?.map(({ category, score, icon }) => {
                 return (
                   <li key={category} className="list-item">
-                    <span className="cat">
+                    <p className="cat">
                       <img src={icon} alt={category} />
-                      <p>{category}</p>
-                    </span>
+                      <span>{category}</span>
+                    </p>
                     <span className="out-of">
                       <strong>{score}</strong> / 100
                     </span>
@@ -192,31 +192,32 @@ const Wrapper = styled.article`
           width: 1.5rem;
           aspect-ratio: 1/1;
         }
-        p {
+        span {
           font-size: 1.2rem;
+          font-weight: 500;
         }
       }
       &:nth-child(1) {
         background: hsl(0, 100%, 96%);
-        .cat p {
+        .cat span {
           color: hsl(0, 100%, 60%);
         }
       }
       &:nth-child(2) {
         background: hsl(39, 100%, 96%);
-        .cat p {
+        .cat span {
           color: hsl(39, 100%, 50%);
         }
       }
       &:nth-child(3) {
         background: hsl(166, 100%, 96%);
-        .cat p {
+        .cat span {
           color: hsl(166, 100%, 32%);
         }
       }
       &:nth-child(4) {
         background: hsl(234, 85%, 96%);
-        .cat p {
+        .cat span {
           color: hsl(234, 85%, 40%);
         }
       }
@@ -259,7 +260,7 @@ const Wrapper = styled.article`
       .list {
         .list-item {
           padding: 1.6rem 1.2rem;
-          .cat p {
+          .cat span {
             font-size: 1.5rem;
           }
           .out-of {
