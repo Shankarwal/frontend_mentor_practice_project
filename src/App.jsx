@@ -7,11 +7,13 @@ import Accordion from "./components/Accordion";
 import QrCode from "./components/QrCode";
 import PerformanceCard from "./components/PerformanceCard";
 import Rating from "./components/rating/Rating";
+import Loader from "./components/Loader";
 
 function App() {
   return (
     <>
-      <Rating />
+      <Loader />
+      {/* <Rating /> */}
       {/* <main> */}
       {/* <PerformanceCard /> */}
       {/* <div> */}
