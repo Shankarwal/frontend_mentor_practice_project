@@ -1,0 +1,10 @@
+.customSlider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider {
+  display: flex;
+  overflow-x: hidden;
+  min-width: 50%;
+}

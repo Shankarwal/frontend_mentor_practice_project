@@ -8,11 +8,15 @@ import QrCode from "./components/QrCode";
 import PerformanceCard from "./components/PerformanceCard";
 import Rating from "./components/rating/Rating";
 import Loader from "./components/Loader";
+import CustomSlider from "./components/CustomSlider";
+import SlickSlider from "./components/SlickSlider";
 
 function App() {
   return (
     <>
-      <Loader />
+      <SlickSlider />
+      {/* <CustomSlider /> */}
+      {/* <Loader /> */}
       {/* <Rating /> */}
       {/* <main> */}
       {/* <PerformanceCard /> */}

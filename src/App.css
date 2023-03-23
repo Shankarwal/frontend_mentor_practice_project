@@ -225,3 +225,33 @@ main .toggle {
   display: grid;
   place-items: center;
 }
+
+.sliderContainer {
+  max-width: 80%;
+  margin: 5rem auto;
+}
+
+div.slick-list {
+  overflow-x: hidden;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+div.slick-track {
+  display: flex;
+  /* gap: 2rem; */
+}
+
+.slide-card {
+  height: 30rem;
+  /* background: #8b33a1; */
+}
+
+.slide-card .card {
+  width: 90%;
+  margin: auto;
+  background: #fff;
+  height: 100%;
+  border-radius: 1rem;
+  padding: 1.6rem;
+}
